@@ -1,0 +1,16 @@
+int main(){
+	int a, b, num, aux;
+	a = 0;
+	b = 1;
+	leia num;
+	mostre a dps " ";
+	mostre b dps " ";
+	aux = a + b;
+	enquanto(aux <= num){//coment @leatorio
+		mostre aux dps " ";
+		a = b;
+		b = aux;
+		aux = a + b;
+	}
+	return 0;
+}

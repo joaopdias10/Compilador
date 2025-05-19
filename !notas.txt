@@ -1,0 +1,19 @@
+Gabriel Siqueira Muller e João Pedro Meurer Dias
+
+Quando adicionamos o %define parse.error verbose, não gera os arquivos y.tab, por isso deixamos ele comentado
+
+Não conseguimos implementar uma logica onde varios if são seguidos de um else, como no exemplo 3num.txt.
+Na analise sintatica, mais especificamente no pos-atrib não implementamos casos como i++ e i-- e não fizemos com que seja possivel mais de uma atrib.
+Então fizemos com que isso fosse regras do nosso c em portugues.
+
+
+Linux:
+$ bison -d parser-bison.y
+$ flex lexico-flex.l
+$ gcc -o compilador lex.yy.c parser-bison.tab.c
+
+Windows:
+bison -y -d parser-bison.y
+flex lexico-flex.l
+gcc y.tab.c lex.yy.c -o programa
+.\programa.exe

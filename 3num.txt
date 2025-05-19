@@ -1,0 +1,14 @@
+int main(){
+	int a, b, c;
+	leia a dps b dps c;
+	se(a>b e a>c){
+		mostre a dps " eh o maior";
+	}
+	se(b>a e b>c){
+		mostre b dps " eh o maior";
+	}
+	se(c>a e c>b){//senao não funciona nesse caso
+		mostre c dps " eh o maior";
+	}
+	return 0; //coment @leatorio
+}

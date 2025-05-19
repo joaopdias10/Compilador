@@ -1,0 +1,23 @@
+int main(){//coment @leatorio
+	int num, i, aux, j;
+	vetor v[5];
+
+	faz(i = 0;5 > i; i=i+1){
+		leia num;
+		v[i] = num;
+	}
+
+	j = 0;
+	faz(i = 1; i < 5; i=i+1){
+		aux = v[i];
+		j = i - 1;
+		enquanto(j >= 0 e v[j] > aux) {
+			v[j+1] = v[j];
+			j = j - 1;
+		}
+		v[j+1] = aux;
+	}
+
+	faz(i = 0; 5 > i; i=i+1){mostre v[i] dps " ";}
+	return 0;
+}

@@ -1,0 +1,19 @@
+Nossa linguagem é baseada no C em português e buscamos seguir fielmente sua sintaxe.
+Em vez de Assembly foi usado uma versão simplificada do mesmo elaborada pelo professor
+
+Regras:
+Declaração de variáveis: As variáveis devem ser declaradas no início do código, antes de qualquer outra instrução, sendo a declaração de inteiros a mesma da linguagem c e a declaração de vetor se da por vetor id[tamanho].
+Estruturas de seleção: Devem ter apenas um if e um else ou uma cadeia de ifs.
+
+A seguir, apresentamos os correspondentes em C e sua sintaxe na nossa linguagem:
+For: Nosso loop é definido como 'faz(;;)'. No primeiro espaço, podemos ou não fazer uma pré-atribuição. No segundo espaço, definimos a condição de repetição do loop. No último espaço, é obrigatória a atribuição a uma variável do tipo inteiro.
+While: Este loop é semelhante ao anterior, mas sua sintaxe é 'enquanto(condição)', sem pré-atribuição ou pós-atribuição.
+If/Else: Nosso 'if' é escrito como 'se' e o 'else' como 'senao'. O 'se' funciona de maneira análoga ao 'while'. O 'senao' só deve existir na presença de um 'se'.
+Scanf: Para ler uma variável, usamos 'leia variavel'.
+Printf: Para mostrar um texto ou valor, usamos 'mostre texto' ou 'mostre valor'. Para mostrar um valor e um texto juntos, usamos "dps" (equivalente a uma vírgula). Por exemplo: 'mostre x dps " é o maior"'.
+Conjunção lógica: '&&' corresponde à 'e' e '|' corresponde à 'ou'
+
+
+
+
+
